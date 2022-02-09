@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: rgb(224, 232, 255);
+}
+.contenedor{
+    /* border:1px solid blue; */
+    width: 280px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px ;
+}
+
+.cuerpo{
+    /* border: 1px solid red; */
+    padding: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+section > .titulo{
+    margin: 10px;
+
+}
+
+h1{
+    font-weight: 900;
+    color: rgb(26,38, 66);
+}
+
+section > .descripcion{
+    margin: 10px;
+    font-size: 15px;
+    color: grey;
+}
+
+.detalles_musica{
+    width: 90%;
+    margin: 10px;
+    height: 50px;
+    background: rgb(248, 249, 254);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.detalles_musica >div>img{
+    width: 35px;
+    
+}
+
+.plan>h3{
+    font-size: 15px;
+    font-weight: 900;
+    color: rgb(26, 38, 66);
+}
+
+.plan>p{
+    color: grey;
+}
+.cambio>a{
+    text-decoration: none;
+    color: rgb(56, 42, 224);
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.ultimo{
+    /* border: 1px solid orange; */
+    width: 100%;
+}
+
+.ultimo>.u_1>a{
+    /* border: 1px solid green; */
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: rgb(56, 42, 224);
+    border-radius: 10px;
+}
+
+.u_1{
+    
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px ;
+}
+
+.u_2{
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+
+.u_2>a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 700;
+    font-size: 14px;
+    
+}
+
+.cambio>a:hover{
+    opacity: 0.5;
+    text-decoration: none;
+    transition: all 0.1s;
+}
+
+.u_1>a:active{
+    opacity: 0.5;
+    transition: all 0.1s;
+}
+
+.u_2>a:active{
+    color: black;
+    font-weight: bold;
+    transition: all 0.1s;
+}
+
